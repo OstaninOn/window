@@ -20,7 +20,7 @@ class SecondModalViewController: UIViewController {
      
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let thirdModalViewController = segue.destination as? ThirdModalViewController {
-            thirdModalViewController.view.backgroundColor = .green
+            thirdModalViewController.view.backgroundColor = .systemGray3
             thirdModalViewController.text = text
         }
     }
